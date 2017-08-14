@@ -20,7 +20,7 @@ if mimic_spanish.found()
 else
   # We compile it:
   mimic_spanish_sub = subproject('mimic-spanish')
-  mimic_spanish = mimic_english_sub.get_variable('ttsmimic_spanish_dep')
+  mimic_spanish = mimic_spanish_sub.get_variable('ttsmimic_spanish_dep')
   mimiccore = mimic_spanish_sub.get_variable('mimiccore')
   mimic_plugin_dir = mimic_spanish_sub.get_variable('mimic_plugin_dir')
   includes += mimic_spanish_sub.get_variable('includes')

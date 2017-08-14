@@ -29,11 +29,9 @@
 #include "mimic.h"
 #include <string.h>
 
-#include "cmu_lex.h"
 #include "cst_phoneset.h"
 #include "es_lang.h"
 #include "flite_hts_engine.h"
-#include "usenglish.h"
 
 phoneset_map_t saga_to_thisvoice_phoneset_map[] = {
     { "J", "ny" },  { "N", "n" }, { "tS", "ch" }, { "T", "th" }, { "z", "s" },
