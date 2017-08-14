@@ -1,0 +1,11 @@
+This voice was possible thanks to the collaboration of the University of Edinburgh,
+the Universidad Politecnica de Madrid and the Universitat Politecnica de Catalunya.
+
+The voice can be downloaded from 
+ http://homepages.inf.ed.ac.uk/jyamagis/software/page54/page54.html
+
+The voice format was converted from hts-2.1 directory format to the newer .htsvoice by
+Sergio Oller, using scripts from bellbird https://github.com/peterdrysdale/bellbird_extras/blob/master/HTSmulti2single.py
+
+
+

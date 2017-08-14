@@ -1,0 +1,27 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Spanish Mimic voice
+Source: https://github.com/mycroftai/mimic
+Comment: Even though this Spanish voice is BSD licensed, the Spanish language support
+ depends on the Saga library, that is GPL-3 licensed. Therefore when this voice
+ is linked to the Saga library it becomes GPL as well. Similarly, the mimic binaries
+ linking to this voice will become GPL as well.
+
+Files:
+ include/cstr_upc_upm_spanish_hts.h
+ src/cstr_upc_upm_spanish_hts.c
+ src/cstr_upc_upm_spanish_hts_plugin.c
+Copyright:
+ 2016 Sergio Oller
+License: BSD-3-clause
+
+Files: voices/cstr_upc_upm_spanish_hts.htsvoice
+Copyright:
+ 2011  The University of Edinburgh 
+ 2011  Universidad Politecnica de Madrid
+ 2011  Universitat Politecnica de Catalunya 
+License: BSD-3-clause
+Comment: The voice can be downloaded from 
+ http://homepages.inf.ed.ac.uk/jyamagis/software/page54/page54.html
+ The voice format was converted from hts-2.1 directory to .htsvoice by
+ Sergio Oller.
+
