@@ -1,0 +1,3 @@
+[submodule "subprojects/mimic-spanish"]
+	path = subprojects/mimic-spanish
+	url = https://github.com/zeehio/mimic-spanish.git
