@@ -34,10 +34,7 @@
 /*************************************************************************/
 
 #include "cstr_upc_upm_spanish_hts.h"
-
-#ifndef ENABLE_CSTR_UPC_UPM_SPANISH_HTS_BUILTIN
 #include "cst_plugins.h"
 mimic_plugin_t mimic_plugin = { "voice_cstr_upc_upm_spanish_hts_hts", 0,
   &voice_cstr_upc_upm_spanish_hts_plugin_init, &voice_cstr_upc_upm_spanish_hts_plugin_exit};
-#endif
 
