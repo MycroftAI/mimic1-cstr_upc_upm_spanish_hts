@@ -1,3 +1,19 @@
 [submodule "subprojects/mimic-spanish"]
 	path = subprojects/mimic-spanish
 	url = https://github.com/zeehio/mimic-spanish.git
+	branch = development
+[submodule "subprojects/pcre2"]
+	path = subprojects/pcre2
+	url = https://github.com/MycroftAI/pcre2_meson
+	branch = 10.23
+[submodule "subprojects/HTSEngine"]
+	path = subprojects/HTSEngine
+	url = https://github.com/MycroftAI/htsengine_meson
+	branch = master
+[submodule "subprojects/mimic-core"]
+	path = subprojects/mimic-core
+	url = https://github.com/MycroftAI/mimic-core
+	branch = development
+[submodule "subprojects/saga"]
+	path = subprojects/saga
+	url = https://github.com/TALP-UPC/saga
